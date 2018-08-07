@@ -343,6 +343,7 @@ a:focus,
     font-weight:600;
     -webkit-transition:font-size 0.3s ease-out;
     transition:font-size 0.3s ease-out;
+    color:gold;
 }
 
 #main-nav #logo span{
@@ -383,7 +384,7 @@ a:focus,
 
 .jumbotron.bg-image {
     position: relative;
-    background:url(../assets/header.jpg) 50% 50% no-repeat;
+    background:url(../assets/dream-unsplash.jpg) 50% 50% no-repeat;
     background-size: cover;
 }
 
@@ -411,7 +412,8 @@ a:focus,
 	-webkit-transform:translateX(-1000px);
 	transform:translateX(-1000px);
 	-webkit-transition:opacity .5s ease-out .3s,-webkit-transform .5s ease-out .3s;
-	transition:opacity .5s ease-out .3s,transform .5s ease-out .3s;
+    transition:opacity .5s ease-out .3s,transform .5s ease-out .3s;
+    color:lemonchiffon;
 }
 
 .jumbotron h1.in{
@@ -428,7 +430,8 @@ a:focus,
 	-webkit-transform:translateY(1000px);
 	transform:translateY(1000px);
 	-webkit-transition:opacity .5s ease-out .8s,-webkit-transform .5s ease-out .8s;
-	transition:opacity .5s ease-out .8s,transform .5s ease-out .8s;
+    transition:opacity .5s ease-out .8s,transform .5s ease-out .8s;
+    color:gold;
 }
 
 .jumbotron p.in{
