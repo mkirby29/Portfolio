@@ -384,7 +384,7 @@ a:focus,
 
 .jumbotron.bg-image {
     position: relative;
-    background:url(../assets/dream-unsplash.jpg) 50% 50% no-repeat;
+    background:url(../assets/spartan.jpg) 50% 50% no-repeat;
     background-size: cover;
 }
 
@@ -618,7 +618,8 @@ a:focus,
 #about img{
     margin-bottom:40px;
 	border:15px solid transparent;
-	box-shadow:5px 3px 0 rgba(255,255,255,.6);
+    box-shadow:5px 3px 0 rgba(255,255,255,.6);
+    transform: rotate(360deg);
 }
 
 #about p{
