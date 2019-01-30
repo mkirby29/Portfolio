@@ -280,7 +280,7 @@ a:focus,
     letter-spacing:0.01em;
     text-transform:uppercase;
     background:transparent;
-    color:#fff; 
+    color:gold; 
 }
 
 #main-nav.scrolled .nav a{
@@ -343,7 +343,6 @@ a:focus,
     font-weight:600;
     -webkit-transition:font-size 0.3s ease-out;
     transition:font-size 0.3s ease-out;
-    color:gold;
 }
 
 #main-nav #logo span{
@@ -748,7 +747,8 @@ a:focus,
 	transform: scale(1);
 	opacity:1;
 	filter:alpha(opacity=100);
-	overflow:hidden;
+    overflow:hidden;
+    box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 1);    
 }
 
 #projects-container .project-item.filtered{
@@ -797,8 +797,8 @@ a:focus,
 }
 
 .project-item .hover-mask .project-title {
-    color:#fff;
-    margin:30px 0 0;
+    color:#38A5DB;
+    margin:-5px 0 0;
     padding:10px;
     font-family:"Titillium Web",sans-serif;
     font-size:21px;
@@ -809,9 +809,9 @@ a:focus,
 }
 
 .project-item .hover-mask p {
-    color:#38A5DB;
+    color:#fff;
     margin:0;
-    font-size:16px;
+    font-size:10px;
     line-height:24px;
     font-weight:600;
     text-transform:uppercase;
@@ -823,11 +823,58 @@ a:focus,
 .project-item .hover-mask:after{
     display:block;
     position:absolute;
-    content: "\f061";
+    /* content: "\f061"; */
     font-family:'FontAwesome';
     bottom:20px;
     left:175px;
     color:#fff;
+}
+
+.hover-mask a {
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    color: #444;
+    margin-right: -30px;
+    margin-top: 4px;
+    margin-left: 72px;
+    text-align: center;
+    -webkit-transition: all 0.6s ease 0s;
+    transition: all 0.6s ease 0s;
+    width: 40px;
+    transition: 0.6s;
+    position: relative;
+    border-radius: 50%;
+}
+
+a:hover {
+    background: gold;
+    color: #fff;
+}
+
+.single-address i.fa {
+    font-size: 22px;
+    height: 55px;
+    line-height: 30px;
+    margin-right: 20px;
+    width: 55px;
+    background: #38A5DB;
+    color: #fff;
+    line-height: 55px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    transition: 0.4s;
+}
+
+.single-address i.fa:hover{
+    color: #fff;
+    background: gold;
+}
+
+.contact-margin-bottom {
+    margin-bottom: 50px;
 }
 
 .masonry,
