@@ -114,7 +114,7 @@ $(document).ready(function() {
 	Project Preview
 	==============================================*/
 	$('.project-item').click(function(e){
-		e.preventDefault();
+		// e.preventDefault();
 
 		var elem = $(this),
 			title = elem.find('.project-title').text(),
