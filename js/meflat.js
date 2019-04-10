@@ -7,7 +7,7 @@ $(document).ready(function() {
 		$('#main-nav').removeClass('scrolled');
 	}
 	else{
-		$('#main-nav').addClass('scrolled');    
+		$('#main-nav').addClass('scrolled');   
 	}
 
 	$(window).scroll(function(){
@@ -15,9 +15,14 @@ $(document).ready(function() {
 			$('#main-nav').removeClass('scrolled');
 		}
 		else{
-			$('#main-nav').addClass('scrolled');    
+			$('#main-nav').addClass('scrolled');  
+			$('#site-nav').collapse('hide'); 
 		}
 	});
+
+	if ($('body').on('click', function(){
+		$('#site-nav').collapse('hide');
+	}));
 	
 	/*============================================
 	Header Functions

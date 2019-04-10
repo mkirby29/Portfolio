@@ -631,8 +631,9 @@ a:focus,
 }
 
 #about p{
-    font-size:21px;
+    font-size:15px;
     line-height:28px;
+    text-align:left;
 }
 
 .skills {
@@ -1255,7 +1256,7 @@ a:hover {
     transition:all .3s ease-out;
 }
 
-.social-links li a {
+.social-links li a{
     display:block;
     color:#fff;
     color:rgba(255,255,255,0.3);
