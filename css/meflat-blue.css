@@ -15,6 +15,7 @@ body{
     border-style: solid;
     border-width: 5px;
     border-color: gold;
+    opacity: .5;
 }
 
 h1,
@@ -630,7 +631,7 @@ a:focus,
 }
 
 #about p{
-    font-size:21px;
+    font-size:15px;
     line-height:28px;
 }
 
@@ -1254,7 +1255,7 @@ a:hover {
     transition:all .3s ease-out;
 }
 
-.social-links li a {
+.social-links li a{
     display:block;
     color:#fff;
     color:rgba(255,255,255,0.3);
