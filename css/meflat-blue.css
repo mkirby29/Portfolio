@@ -864,6 +864,30 @@ a:hover {
     color: #fff;
 }
 
+.hover-mask .wordpress {
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    color: #444;
+    margin-right: -30px;
+    margin-top: 4px;
+    margin-left: 115px;
+    text-align: center;
+    -webkit-transition: all 0.6s ease 0s;
+    transition: all 0.6s ease 0s;
+    width: 40px;
+    transition: 0.6s;
+    position: relative;
+    border-radius: 50%;
+}
+
+.wordpress:hover {
+    background: gold;
+    color: #fff;
+}
+
 .single-address i.fa {
     font-size: 22px;
     height: 55px;
